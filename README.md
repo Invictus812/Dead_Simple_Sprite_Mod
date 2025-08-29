@@ -26,13 +26,13 @@ NEW ENEMY CHANGES:
 - New sprites for the shocktrooper and their forcefully-separated head in Legacy of Rust
 - New gorier death animation for the Archvile (deserved).
 
-BRIGHTMAPS: 
+BRIGHTMAPS:  
 WE GOT EM (in supported ports).  Enemies now have glowing eyes and cybernetic enemies also have glowing machine bits, in addition to flats for nukage and lava and most pickup sprites having something on them that glows, if appropriate.  Imps and bruisers also have glowing hands as they prepare to fire.
 
 NUGHUD: Included a minimalist NUGHUD file for Nugget Doom users.
 
-DEHEXTRA ADD-ON:
-Hey man, y'all like smooth decorations and powerups?  Dead Simple now comes with a small DEHEXTRA-compatible add-on that can be loaded alongside the other included add-ons to get:
+DEHEXTRA ADD-ON:  
+ Hey man, y'all like smooth decorations and powerups?  Dead Simple now comes with a small DEHEXTRA-compatible add-on that can be loaded alongside the other included add-ons to get:
 - Animated Medikits
 - Smooth health potions
 - Smooth torches and barrels
@@ -55,13 +55,13 @@ THIS MOD HAS BEEN TESTED AND IS FULLY* COMPATIBLE WITH:
 - Doom Retro and GZDoom both like to CTD when you quit after playing BTSX, but at that point you've already quit so I'm honestly not _that_ worried about it.
 - DSDA, Eternity Engine, and GZDoom have a REALLY choppy chainsaw bob.  It doesn't affect the performance and comparing it to vanilla, I think that may actually be the default behavior, but I figured I'd make a note of it regardless. 
 
-HOW TO USE:
+HOW TO USE:  
 If your source port has an autoload folder and you want to use them, you can go ahead and add brghtmps.lmp and the NUGHUD into the "all" section and just skip anything related to them in the instructions below.  
 Load order matters here, though in most instances it's no different than you're used to.  If you're NOT playing Legacy of Rust, load the IWAD, then map PWAD, then the weapons mod of your choosing, then brghtmps.lmp and the NUGHUD if you're playing with a Woof!-family port and so-desire.  If you ARE playing Legacy of Rust, the weapons mod must be loaded BEFORE Legacy of Rust to allow overwriting the Plasma Rifle and BFG.  The Rust Patch must be loaded afterwards to put the new shocktrooper sprites and strings consistent with the LoR content in the game.  Regardless the gameplay mod you're using, load DeadSimpleExtra.wad after the mod.  Brghtmps.lmp and the NUGHUD go at the end as per usual.
 
-CREDITS:
-- Sgt Mark IV - Brutal Doom v21 and v22 (Fist, Pistol, Shotgun, BFG)
-- OSJC Latchford - Major Crisis (SMG, Plasma Rifle)
-- Sonik.O.Fan aka Tesefy - Brutal Doom v21 Vanilla Gloves (Rocket Launcher)
-- Lobo - Doom Forever (Imp Sprites, some effects)
-- c0mbolynch - Supercharge weapons addon (Super Shotgun)
+CREDITS:  
+Sgt Mark IV - Brutal Doom v21 and v22 (Fist, Pistol, Shotgun, BFG)  
+OSJC Latchford - Major Crisis (SMG, Plasma Rifle)  
+Sonik.O.Fan aka Tesefy - Brutal Doom v21 Vanilla Gloves (Rocket Launcher)  
+Lobo - Doom Forever (Imp Sprites, some effects)  
+c0mbolynch - Supercharge weapons addon (Super Shotgun)  
