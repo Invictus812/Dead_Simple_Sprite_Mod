@@ -21,9 +21,9 @@ NEW ENEMY CHANGES:
 - Since the chaingun is now an SMG, the Chaingunner has been replaced by a Machinegunner I made, who will drop the SMG on death. His rate of fire remains unchanged from the original, but the frame duration has been halved to make the animation match the rate of fire.
 - Imp pre-firing frames got a little hotter...
 - Barons now have green blood in supported ports and black legs to make them a little easier to differentiate at a distance from Hell Knights.
-- Cacodemons, Hell Knights, Barons, and Pain Elementals also haave blue, green, and orange blood, respectively, in supported ports.
+- Cacodemons, Hell Knights, Barons, and Pain Elementals also have blue, green, and orange blood, respectively, in supported ports.
 - Revenants now wear black armor.  This has no in-game purpose, I just think it looks sick af.
-- New sprites for the shocktrooper and their forcefully-separated head in Legacy of Rust
+- New sprites for the shocktrooper and their forcefully-separated head in Legacy of Rust (V1.2.1 - now with full rotation frames!)
 - New gorier death animation for the Archvile (deserved).
 
 BRIGHTMAPS:  
@@ -57,7 +57,7 @@ THIS MOD HAS BEEN TESTED AND IS FULLY* COMPATIBLE WITH:
 
 HOW TO USE:  
 If your source port has an autoload folder and you want to use them, you can go ahead and add brghtmps.lmp and the NUGHUD into the "all" section and just skip anything related to them in the instructions below.  
-Load order matters here, though in most instances it's no different than you're used to.  If you're NOT playing Legacy of Rust, load the IWAD, then map PWAD, then the weapons mod of your choosing, then brghtmps.lmp and the NUGHUD if you're playing with a Woof!-family port and so-desire.  If you ARE playing Legacy of Rust, the weapons mod must be loaded BEFORE Legacy of Rust to allow overwriting the Plasma Rifle and BFG.  The Rust Patch must be loaded afterwards to put the new shocktrooper sprites and strings consistent with the LoR content in the game.  Regardless the gameplay mod you're using, load DeadSimpleExtra.wad after the mod.  Brghtmps.lmp and the NUGHUD go at the end as per usual.
+Load order matters here, though in most instances it's no different than you're used to.  If you're NOT playing Legacy of Rust, load the IWAD, then map PWAD, then the weapons mod of your choosing, then brghtmps.lmp and the NUGHUD if you're playing with a Woof!-family port and so-desire.  If you ARE playing Legacy of Rust, the weapons mod must be loaded BEFORE Legacy of Rust to allow overwriting the Plasma Rifle and BFG.  The Rust Patch must be loaded afterwards to put the new shocktrooper sprites and strings consistent with the LoR content in the game.  Regardless the gameplay mod you're using, load DeadSimpleExtra.wad afterwards.  Brghtmps.lmp and the NUGHUD go at the end as per usual.
 
 CREDITS:  
 Sgt Mark IV - Brutal Doom v21 and v22 (Fist, Pistol, Shotgun, BFG)  
