@@ -48,16 +48,17 @@ THIS MOD HAS BEEN TESTED AND IS FULLY* COMPATIBLE WITH:
 - DSDA-Doom
 - Crispy Doom
 - GZDoom
-- The Eternity Engine 
+- The Eternity Engine
+- Helion 
 
 *KNOWN ISSUES:
-- Currently, of the ports I've tested here, only Woof!-family ports are able to accept the BRGHTMPS lump, though Doom Retro should be fixing this feature in an update following 5.7.1.  All of the Woof!-family ports would crash loading Legacy of Rust when I tested them with BRGHTMPS included in the WAD.  Removing it fixed the crash, and adding it separately in the load order let me have our brightmaps back.  To avoid including three different versions of the same WAD in this folder, I've opted to simply include the separate BRGHTMPS lump to load as you see fit.
-- Doom Retro and GZDoom both like to CTD when you quit after playing BTSX, but at that point you've already quit so I'm honestly not _that_ worried about it.
+- Currently, of the ports I've tested here, only Woof!-family ports and Helion are able to accept the BRGHTMPS lump, though Doom Retro should be fixing this feature in a future update
+- Doom Retro and GZDoom both like to CTD when you quit, but at that point you've already quit so I'm honestly not _that_ worried about it.
 - DSDA, Eternity Engine, and GZDoom have a REALLY choppy chainsaw bob.  It doesn't affect the performance and comparing it to vanilla, I think that may actually be the default behavior, but I figured I'd make a note of it regardless. 
 
 HOW TO USE:  
-If your source port has an autoload folder and you want to use them, you can go ahead and add brghtmps.lmp and the NUGHUD into the "all" section and just skip anything related to them in the instructions below.  
-Load order matters here, though in most instances it's no different than you're used to.  If you're NOT playing Legacy of Rust, load the IWAD, then map PWAD, then the weapons mod of your choosing, then brghtmps.lmp and the NUGHUD if you're playing with a Woof!-family port and so-desire.  If you ARE playing Legacy of Rust, the weapons mod must be loaded BEFORE Legacy of Rust to allow overwriting the Plasma Rifle and BFG.  The Rust Patch must be loaded afterwards to put the new shocktrooper sprites and strings consistent with the LoR content in the game.  Regardless the gameplay mod you're using, load DeadSimpleExtra.wad afterwards.  Brghtmps.lmp and the NUGHUD go at the end as per usual.
+If your source port has an autoload folder and you want to use them, you can go ahead and add the NUGHUD into the "all" section and just skip anything related to it in the instructions below.  
+Load order matters here, though in most instances it's no different than you're used to.  If you're NOT playing Legacy of Rust, load the IWAD, then map PWAD, then the weapons mod of your choosing, then the NUGHUD if you so-desire.  If you ARE playing Legacy of Rust, the weapons mod must be loaded BEFORE Legacy of Rust to allow overwriting the Plasma Rifle and BFG.  The Rust Patch must be loaded afterwards to put the new shocktrooper sprites and strings consistent with the LoR content in the game.  Regardless the gameplay mod you're using, load DeadSimpleExtra.wad afterwards.  NUGHUD goes at the end as per usual.
 
 CREDITS:  
 Sgt Mark IV - Brutal Doom v21 and v22 (Fist, Pistol, Shotgun, BFG)  
