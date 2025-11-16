@@ -1,4 +1,4 @@
-# Dead_Simple_Sprite_Mod
+# Dead Simple Sprite Mod
 Okay, I'll be upfront: I decided to call the mod this when it was ACTUALLY just a sprite replacement with minimal DeHackEd work - just intended to make the vanilla experience look and feel a little better.  As usual, once I started playing with DeHackEd I just couldn't stop, so now what I've ended up with is an MBF-compatible smooth (mostly) weapons mod with a few monster tweaks to go along with it.  I'm keeping the name, if only for the sense of irony it provides. My new goal became to make this mod "what KexDoom should have looked like", since **I was able to do ALL of this with the vanilla state table with zero states pulled from decorations**. I originally had it as Boom-compatible but I NEEDED one of the MBF pointers for something so c'est la vie, **it still runs in Crispy Doom**.  Weapon sprites have been adapted from Brutal Doom v22, the Vanilla Gloves mod for v21, Major Crisis, c0mbolynch's weapon reskin for SuperCharge, and Doom Forever. Nearly all of the pickup sprites have received at least minor reworks to both more closely resemble the sprites from the player's POV and also to look more like they could be actual weapons.  
 I have meticulously gone frame-by-frame to make sure the timing on the weapons matches exactly with their equivalents in Vanilla.  That being said, I wouldn't recommend using this mod for demo recording or playback because every projectile for both player and enemy has gotten a speed buff, and one weapon and a couple enemies have been tweaked in such a way that may cause a desync, but the projectiles are definitely the bigger concern.  On a more positive note:  
 **No weird purple and red artifacts here; this mod is also 100% pallette-compatible with BTSX!**
@@ -12,7 +12,7 @@ I have meticulously gone frame-by-frame to make sure the timing on the weapons m
 - The Chaingun is now a submachine gun with all the same characteristics as the chaingun with the sole exception that it fires one bullet per pull of the trigger, rather than two.  Rate of fire remains unchanged.
 - The Rocket Launcher has better sprites and a smooth animation, complete with rotating cylinder. ﻿
 - The Plasma Rifle is smooth and no longer ugly as sin.
-- The BFG is definitely the most questionable change here, but I still think it looks overall better than the original.
+- The BFG has been given an entirely new sprite set.
 
 NEW ENEMY CHANGES:
 - The Zombieman has been given fullbright on his firing frame and calls refire like the chaingunner whenever he still has line of sight of the player character.  He also has a new death animation.
@@ -61,8 +61,9 @@ If your source port has an autoload folder and you want to use them, you can go 
 Load order matters here, though in most instances it's no different than you're used to.  If you're NOT playing Legacy of Rust, load the IWAD, then map PWAD, then the weapons mod of your choosing, then the NUGHUD if you so-desire.  If you ARE playing Legacy of Rust, the weapons mod must be loaded BEFORE Legacy of Rust to allow overwriting the Plasma Rifle and BFG.  The Rust Patch must be loaded afterwards to put the new shocktrooper sprites and strings consistent with the LoR content in the game.  Regardless the gameplay mod you're using, load DeadSimpleExtra.wad afterwards.  NUGHUD goes at the end as per usual.
 
 CREDITS:  
-Sgt Mark IV - Brutal Doom v21 and v22 (Fist, Pistol, Shotgun, BFG)  
-OSJC Latchford - Major Crisis (SMG, Plasma Rifle)  
-Sonik.O.Fan aka Tesefy - Brutal Doom v21 Vanilla Gloves (Rocket Launcher)  
+Sonik.o.Fan aka Tesefy - Fist, Pistol, Shotgun, BFG, Rocket Launcher, Plasma Rifle  
+6BD - Super Shotgun, taken from c0mbolynch's Supercharge weapons addon  
+OSJC Latchford - Major Crisis (SMG)   
 Lobo - Doom Forever (Imp Sprites, some effects)  
-c0mbolynch - Supercharge weapons addon (Super Shotgun)  
+
+Please enjoy this new and improved Dead Simple Sprite Mod, and don't hesitate to reach out for any reason. As always: Comments, feedback, and constructive criticism are all welcome. All other complaints can be emailed to rpitchford@gearbox.com.
